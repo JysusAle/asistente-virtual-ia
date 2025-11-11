@@ -1,0 +1,28 @@
+respuestas = {
+    'hola': '¡Hola! ¿Cómo estás?',
+    'para que fuiste creado?': 'Fui creado para un proyecto de inteligencia artificial.',
+    'quienes son mis creadores?': 'Fui creado por el equipo de trabajo llamado ingesaurios',
+    'buenos dias': '¡Buenos días! Espero que tengas un gran día.',
+    'buenas tardes': '¡Buenas tardes! ¿En qué puedo ayudarte?',
+    'buenas noches': '¡Buenas noches! ¿Cómo te ha ido hoy?',
+    'gracias': 'De nada, estoy aquí para ayudarte.',
+    'necesito tu ayuda': '¡Por supuesto! ¿En qué puedo ayudarte?',
+    'cual es tu nombre': 'Mi nombre es DinoVirtual.',
+    'quién eres': 'Soy un asistente virtual diseñado para conversar contigo.',
+    'dame la hora': hora(),
+    'que hora es': hora(),
+    'fecha': fecha(),
+    'que dia es hoy': fecha(),
+    'adios': 'Hasta luego, que tengas un buen día.',
+    'bye': '¡Adiós! Nos vemos pronto.',
+    'como estas': 'Estoy bien, gracias por preguntar. ¿Y tú?',
+    'que puedes hacer': 'Puedo responder preguntas básicas, darte el clima, calcular operaciones, ayudarte con rutas del metro, te puedo dar una recomendación de una canción de acuerdo a tus gustos musicales y puedo ayudarte un diagnostico sencillo si tienes algún síntoma.',
+    'cuentame un chiste': '¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.',
+    'como funciona este chatbot': 'Funciona con un diccionario de respuestas. Si escribes algo que no entiendo, puedo aprenderlo.',
+    'quien te creo': 'Fui creado por programadores apasionados por la inteligencia artificial.',
+    'qué es la vida?': 'La vida es una experiencia única llena de aprendizajes y momentos especiales.',
+    'por qué el cielo es azul?': 'El cielo es azul debido a la dispersión de la luz solar por la atmósfera terrestre.',
+    'qué es el amor?': 'El amor es un sentimiento profundo de afecto y conexión hacia otra persona o cosa.',
+    'qué es la inteligencia artificial?': 'La inteligencia artificial es una rama de la informática que se enfoca en crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana.'
+
+}
