@@ -1,0 +1,81 @@
+{
+  "enfermedades": {
+    "gripe": {
+      "sintomas": [
+        "fiebre",
+        "tos",
+        "dolor_cabeza",
+        "cansancio"
+      ]
+    },
+
+    "resfriado": {
+      "sintomas": [
+        "tos",
+        "mocos",
+        "dolor_garganta",
+        "estornudos"
+      ]
+    },
+
+    "neumonia": {
+      "sintomas": [
+        "fiebre",
+        "tos",
+        "dificultad_respirar",
+        "dolor_pecho"
+      ]
+    },
+
+    "amigdalitis": {
+      "sintomas": [
+        "dolor_garganta",
+        "fiebre",
+        "inflamacion_garganta"
+      ]
+    }
+  },
+
+  "sintomas": {
+    "fiebre": {
+      "keywords": ["calentura", "temperatura alta", "me siento caliente"],
+      "descripcion": "Aumento de temperatura corporal mayor a 37.5°C"
+    },
+    "tos": {
+      "keywords": ["tosiendo", "toser", "se me va la voz"],
+      "descripcion": "Expulsión de aire por irritación en las vías respiratorias"
+    },
+    "dolor_cabeza": {
+      "keywords": ["me duele la cabeza", "jaqueca", "presión en la cabeza"],
+      "descripcion": "Dolor o presión en la zona craneal"
+    },
+    "cansancio": {
+      "keywords": ["fatiga", "me siento débil", "agotado"],
+      "descripcion": "Sensación de poca energía o debilidad"
+    },
+    "mocos": {
+      "keywords": ["congestion nasal", "nariz tapada", "secreción nasal"],
+      "descripcion": "Producción excesiva de mucosa nasal"
+    },
+    "dolor_garganta": {
+      "keywords": ["me arde la garganta", "molestia al tragar", "raspera"],
+      "descripcion": "Irritación o dolor en la zona de la garganta"
+    },
+    "estornudos": {
+      "keywords": ["estoy estornudando", "no paro de estornudar"],
+      "descripcion": "Reflejo expulsivo nasal repetido"
+    },
+    "dificultad_respirar": {
+      "keywords": ["me falta el aire", "no puedo respirar bien", "ahogo"],
+      "descripcion": "Sensación de respiración insuficiente"
+    },
+    "dolor_pecho": {
+      "keywords": ["presión en el pecho", "dolor al respirar", "molestia torácica"],
+      "descripcion": "Dolor o presión en la zona del tórax"
+    },
+    "inflamacion_garganta": {
+      "keywords": ["garganta inflamada", "roja la garganta"],
+      "descripcion": "Aumento de tamaño e irritación en la garganta"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "generos": {
+    "rock": {
+      "artistas": {
+        "nirvana": {
+          "canciones": [
+            "smells like teen spirit",
+            "come as you are",
+            "lithium"
+          ]
+        },
+        "queen": {
+          "canciones": [
+            "bohemian rhapsody",
+            "don't stop me now",
+            "we will rock you"
+          ]
+        },
+        "metallica": {
+          "canciones": [
+            "enter sandman",
+            "nothing else matters",
+            "master of puppets"
+          ]
+        }
+      }
+    },
+
+    "pop": {
+      "artistas": {
+        "dua lipa": {
+          "canciones": [
+            "levitating",
+            "new rules",
+            "dont start now"
+          ]
+        },
+        "taylor swift": {
+          "canciones": [
+            "lover",
+            "shake it off",
+            "cardigan"
+          ]
+        }
+      }
+    },
+
+    "alternativo": {
+      "artistas": {
+        "radiohead": {
+          "canciones": [
+            "creep",
+            "karma police",
+            "no surprises"
+          ]
+        },
+        "arctic monkeys": {
+          "canciones": [
+            "do i wanna know",
+            "505",
+            "r u mine"
+          ]
+        }
+      }
+    }
+  }
+}

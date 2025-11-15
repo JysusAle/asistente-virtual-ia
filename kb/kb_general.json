@@ -1,0 +1,100 @@
+{
+  "saludos": {
+    "hola": {
+      "keywords": ["hola", "hey", "hi"],
+      "respuesta": "¡Hola! ¿Cómo estás?"
+    },
+    "buenos_dias": {
+      "keywords": ["buenos dias", "buen día"],
+      "respuesta": "¡Buenos días! Espero que tengas un gran día."
+    },
+    "buenas_tardes": {
+      "keywords": ["buenas tardes"],
+      "respuesta": "¡Buenas tardes! ¿En qué puedo ayudarte?"
+    },
+    "buenas_noche": {
+      "keywords": ["buenas noches"],
+      "respuesta": "¡Buenas noches! ¿Cómo te ha ido hoy?"
+    },
+    "despedida": {
+      "keywords": ["adios", "bye", "nos vemos"],
+      "respuesta": "Hasta luego, que tengas un buen día."
+    }
+  },
+
+  "identidad": {
+    "nombre": {
+      "keywords": ["cual es tu nombre", "como te llamas"],
+      "respuesta": "Mi nombre es DinoVirtual."
+    },
+    "quien_eres": {
+      "keywords": ["quien eres", "qué eres"],
+      "respuesta": "Soy un asistente virtual diseñado para conversar contigo."
+    },
+    "creacion": {
+      "keywords": ["para que fuiste creado", "por que te crearon"],
+      "respuesta": "Fui creado para un proyecto de inteligencia artificial."
+    },
+    "creadores": {
+      "keywords": ["quienes son mis creadores", "quien te creo"],
+      "respuesta": "Fui creado por el equipo de trabajo llamado Ingesaurios."
+    }
+  },
+
+  "conversacion": {
+    "gracias": {
+      "keywords": ["gracias"],
+      "respuesta": "De nada, estoy aquí para ayudarte."
+    },
+    "ayuda": {
+      "keywords": ["necesito tu ayuda", "ayudame"],
+      "respuesta": "¡Por supuesto! ¿En qué puedo ayudarte?"
+    },
+    "como_estas": {
+      "keywords": ["como estas"],
+      "respuesta": "Estoy bien, gracias por preguntar. ¿Y tú?"
+    },
+    "que_puedes_hacer": {
+      "keywords": ["que puedes hacer", "que haces"],
+      "respuesta": "Puedo responder preguntas básicas, darte el clima, calcular operaciones, ayudarte con rutas del metro, recomendarte música y darte un diagnóstico sencillo si tienes algún síntoma."
+    },
+    "chiste": {
+      "keywords": ["cuentame un chiste", "chiste"],
+      "respuesta": "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter."
+    },
+    "como_funciona": {
+      "keywords": ["como funciona este chatbot"],
+      "respuesta": "Funciona con una base de conocimientos e inferencia básica. Si escribes algo que no entiendo, puedo aprenderlo."
+    }
+  },
+
+  "funciones": {
+    "hora": {
+      "keywords": ["dame la hora", "que hora es"],
+      "funcion": "hora"
+    },
+    "fecha": {
+      "keywords": ["fecha", "que dia es hoy"],
+      "funcion": "fecha"
+    }
+  },
+
+  "conceptos": {
+    "vida": {
+      "keywords": ["que es la vida"],
+      "respuesta": "La vida es una experiencia única llena de aprendizajes y momentos especiales."
+    },
+    "cielo_azul": {
+      "keywords": ["por que el cielo es azul"],
+      "respuesta": "El cielo es azul debido a la dispersión de la luz solar por la atmósfera terrestre."
+    },
+    "amor": {
+      "keywords": ["que es el amor"],
+      "respuesta": "El amor es un sentimiento profundo de afecto y conexión hacia otra persona o cosa."
+    },
+    "ia": {
+      "keywords": ["que es la inteligencia artificial"],
+      "respuesta": "La inteligencia artificial es una rama de la informática que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana."
+    }
+  }
+}
