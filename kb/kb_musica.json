@@ -63,5 +63,22 @@
         }
       }
     }
-  }
+  },
+
+  "palabras_clave":[
+    "musica",
+    "cancion",
+    "artista",
+    "genero",
+    "recomiendame una cancion",
+    "musica sugieres",
+    "escuchar musica"
+  ],
+  
+  "request":[
+    "Bien te podria gustar lo siguiente: ",
+    "Excelente, re recomiendo lo siguiente: ",
+    "Muy bien, lo que te puedo recomendar es: ",
+    "Excelentes gustos, considera escuchar"
+  ]
 }
