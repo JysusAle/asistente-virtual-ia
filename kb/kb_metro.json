@@ -1,0 +1,67 @@
+{
+    "lineas":{
+
+        "linea1":{
+
+            "estaciones":{
+                "observatorio":[null,1262],
+                "tacubaya":[1262,1158],
+                "juanacatlan":[1158,973],
+                "chapultepec":[973,501],
+                "sevilla":[501,645],
+                "insurgentes":[645,793],
+                "cuauhtemoc":[793,409],
+                "balderas":[409,458],
+                "salto del agua":[458,445],
+                "isabel la catolica":[445,382],
+                "pino suarez":[382,745],
+                "merced":[745,698],
+                "candelaria":[698,866],
+                "san lazaro":[866,478],
+                "moctezuma":[478,703],
+                "balbuena":[703,595],
+                "boulevard puerto aereo":[595,611],
+                "gomez farias":[611,762],
+                "zaragoza":[762,1320],
+                "pantitlan":[1320,null]
+            }
+        },
+
+        "linea2": {
+            "estaciones": {
+                "cuatro caminos": [null,1639],
+                "panteones": [1639,1416],
+                "tacuba": [1416,637],
+                "cuitlahuac": [637,620],
+                "popotla": [620,462],
+                "colegio militar": [462,516],
+                "normal": [516,657],
+                "san cosme": [657,537],
+                "revolucion": [537,587],
+                "hidalgo": [587,447],
+                "bellas artes": [447,387],
+                "allende": [387,602],
+                "zocalo": [602,745],
+                "pino suarez": [745,817],
+                "san antonio abad": [817,642],
+                "chabacano": [642,774],
+                "viaducto": [774,490],
+                "xola": [490,698],
+                "villa de cortes": [698,750],
+                "nativitas": [750,924],
+                "portales": [924,748],
+                "ermita": [748,838],
+                "general anaya": [838,1330],
+                "tasquena": [1330,null]
+    }
+}
+    },
+
+    "palabras_clave":[
+        "metro",
+        "linea",
+        "llegar",
+        "ir"
+    ]
+
+}
