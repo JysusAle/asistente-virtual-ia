@@ -37,45 +37,35 @@
   },
 
   "sintomas": {
-    "fiebre": {
-      "keywords": ["calentura", "temperatura alta", "me siento caliente"],
-      "descripcion": "Aumento de temperatura corporal mayor a 37.5°C"
-    },
-    "tos": {
-      "keywords": ["tosiendo", "toser", "se me va la voz"],
-      "descripcion": "Expulsión de aire por irritación en las vías respiratorias"
-    },
-    "dolor_cabeza": {
-      "keywords": ["me duele la cabeza", "jaqueca", "presión en la cabeza"],
-      "descripcion": "Dolor o presión en la zona craneal"
-    },
-    "cansancio": {
-      "keywords": ["fatiga", "me siento débil", "agotado"],
-      "descripcion": "Sensación de poca energía o debilidad"
-    },
-    "mocos": {
-      "keywords": ["congestion nasal", "nariz tapada", "secreción nasal"],
-      "descripcion": "Producción excesiva de mucosa nasal"
-    },
-    "dolor_garganta": {
-      "keywords": ["me arde la garganta", "molestia al tragar", "raspera"],
-      "descripcion": "Irritación o dolor en la zona de la garganta"
-    },
-    "estornudos": {
-      "keywords": ["estoy estornudando", "no paro de estornudar"],
-      "descripcion": "Reflejo expulsivo nasal repetido"
-    },
-    "dificultad_respirar": {
-      "keywords": ["me falta el aire", "no puedo respirar bien", "ahogo"],
-      "descripcion": "Sensación de respiración insuficiente"
-    },
-    "dolor_pecho": {
-      "keywords": ["presión en el pecho", "dolor al respirar", "molestia torácica"],
-      "descripcion": "Dolor o presión en la zona del tórax"
-    },
-    "inflamacion_garganta": {
-      "keywords": ["garganta inflamada", "roja la garganta"],
-      "descripcion": "Aumento de tamaño e irritación en la garganta"
-    }
-  }
+    "fiebre": ["fiebre, calentura", "temperatura alta", "me siento caliente"],
+    "tos":["tos, tosiendo", "toser", "se me va la voz"],
+    "dolor_cabeza":["dolor de cabeza,me duele la cabeza", "jaqueca", "presión en la cabeza"],
+    "cansancio" : ["cansancio, fatiga", "me siento debil", "agotado"],
+    "mocos": ["mocos, congestion nasal", "nariz tapada", "secreción nasal"],
+    "dolor_garganta": ["dolor garganta, me arde la garganta", "molestia al tragar", "raspera"],
+    "estornudos": ["estornudos, estoy estornudando", "no paro de estornudar"],
+    "dificultad_respirar": ["dificultad_respirar, falta el aire", "no puedo respirar bien", "ahogo"],
+    "dolor_pecho":  ["dolor de pecho, en el pecho", "dolor al respirar", "molestia toracica"],
+    "inflamacion_garganta": ["inflamacion_garganta, inflamada", "roja la garganta"]
+  },
+
+
+  "palabras_clave":[
+    "sintomas",
+    "diagnostico",
+    "enfermedad",
+    "me siento mal",
+    "me duele",
+    "tengo dolor de garganta",
+    "siento dolor de cabeza",
+    "dolor",
+    "enfermedad"
+  ],
+
+  "request":[
+    "Que mal que sientas eso, puede que tengas: ",
+    "Realmente que mal, con base a lo que dices puede que sufras: ",
+    "En base a tus sintomas, esto puede ser: ",
+    "Estos sintomas generalmente se deben a. "
+  ]
 }
