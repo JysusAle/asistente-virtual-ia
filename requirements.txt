@@ -1,0 +1,6 @@
+flet
+openai
+requests
+python-dotenv
+spacy
+nltk
