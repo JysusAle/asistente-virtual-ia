@@ -22,6 +22,7 @@ def extraer_proposiciones(tema, prompt, kb):
     return proposiciones_obetenidas
 
 def inferir_recomendacion_musica(prompt, kb):
+    prompt = prompt.lower()
 
     lista_generos = cargar_kb_musica(kb)
     proposiciones = extraer_proposiciones("musica",prompt,kb)

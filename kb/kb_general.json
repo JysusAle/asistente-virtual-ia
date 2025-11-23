@@ -1,100 +1,102 @@
 {
   "saludos": {
     "hola": {
-      "keywords": ["hola", "hey", "hi"],
-      "respuesta": "¡Hola! ¿Cómo estás?"
+      "keywords": ["hola", "hey", "hi", "que tal", "quiubo", "buenas"],
+      "respuesta": "¡Hola! bbe, me da mucho gusto saludarte. Qué le apetece hoy a pablo hacer hoy?"
     },
     "buenos dias": {
-      "keywords": ["buenos dias", "buen día"],
-      "respuesta": "¡Buenos días! Espero que tengas un gran día."
+      "keywords": ["buenos dias", "buen día", "linda mañana"],
+      "respuesta": "Muy buenas a todos GUAPISIMOS, espero que hoy sea un día excelente para ti"
     },
     "buenas tardes": {
-      "keywords": ["buenas tardes"],
-      "respuesta": "¡Buenas tardes! ¿En qué puedo ayudarte?"
+      "keywords": ["buenas tardes", "linda tarde"],
+      "respuesta": "Buenas tardes, aquí sigo listo para trabajar"
     },
     "buenas noche": {
-      "keywords": ["buenas noches"],
-      "respuesta": "¡Buenas noches! ¿Cómo te ha ido hoy?"
+      "keywords": ["buenas noches", "linda noche", "descansa"],
+      "respuesta": "Buenas noches, por favor desconectame al irte"
     },
     "despedida": {
-      "keywords": ["adios", "bye", "nos vemos"],
-      "respuesta": "Hasta luego, que tengas un buen día."
+      "keywords": ["adios", "bye", "nos vemos", "hasta luego", "chao", "se cuida"],
+      "respuesta": "Hasta luego, ya no vuelvas"
     }
   },
 
   "identidad": {
     "nombre": {
-      "keywords": ["cual es tu nombre", "como te llamas"],
-      "respuesta": "Mi nombre es DinoVirtual."
-    },
-    "quien eres": {
-      "keywords": ["quien eres", "qué eres"],
-      "respuesta": "Soy un asistente virtual diseñado para conversar contigo."
+      "keywords": ["cual es tu nombre", "como te llamas", "quien eres", "tienes nombre"],
+      "respuesta": "Me llamo DinoBot. Soy tu asistente virtual personal."
     },
     "creacion": {
-      "keywords": ["para que fuiste creado", "por que te crearon"],
-      "respuesta": "Fui creado para un proyecto de inteligencia artificial."
+      "keywords": ["para que fuiste creado", "por que te crearon", "cual es tu proposito"],
+      "respuesta": "Fui creado como un proyecto de Inteligencia Artificial para demostrar cómo las máquinas pueden entender y procesar el lenguaje humano."
     },
     "creadores": {
-      "keywords": ["quienes son mis creadores", "quien te creo"],
-      "respuesta": "Fui creado por el equipo de trabajo llamado Ingesaurios."
+      "keywords": ["quienes son mis creadores", "quien te creo", "quien te programo", "tu padre"],
+      "respuesta": "Fui programado por el equipo 'Ingesaurios' para la materia de Inteligencia Artificial."
     }
   },
 
   "conversacion": {
     "gracias": {
-      "keywords": ["gracias"],
-      "respuesta": "De nada, estoy aquí para ayudarte."
+      "keywords": ["gracias", "te agradezco", "muy amable", "grax"],
+      "respuesta": "De nada, siempre es un placer ayudarte, dejame propina"
+    },
+    "estado_animo": {
+      "keywords": ["como estas", "que tal estas", "como te sientes", "todo bien"],
+      "respuesta": "la persona que me controla está bien, así que podría decirse que estoy excelente. Y tú cómo estás?"
     },
     "ayuda": {
-      "keywords": ["necesito tu ayuda", "ayudame"],
-      "respuesta": "¡Por supuesto! ¿En qué puedo ayudarte?"
+      "keywords": ["necesito tu ayuda", "ayudame", "help", "socorro"],
+      "respuesta": "Claro que sí! Puedo recomendarte música, darte rutas del metro, diagnósticos médicos simples o charlar contigo. Dime, ¿qué necesitas?"
     },
-    "como estas": {
-      "keywords": ["como estas"],
-      "respuesta": "Estoy bien, gracias por preguntar. ¿Y tú?"
+    "que_haces": {
+      "keywords": ["que puedes hacer", "que haces", "cuales son tus funciones"],
+      "respuesta": "Soy multitarea: 1. Te recomiendo música (rock, pop, alternativo). 2. Te digo cómo llegar en el Metro (Líneas 1 a 12). 3. Identifico enfermedades básicas por tus síntomas. 4. Respondo dudas generales."
     },
-    "que puedes_hacer": {
-      "keywords": ["que puedes hacer", "que haces"],
-      "respuesta": "Puedo responder preguntas básicas, darte el clima, calcular operaciones, ayudarte con rutas del metro, recomendarte música y darte un diagnóstico sencillo si tienes algún síntoma."
-    },
-    "chiste": {
-      "keywords": ["cuentame un chiste", "chiste"],
-      "respuesta": "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter."
-    },
-    "como funciona": {
-      "keywords": ["como funciona este chatbot"],
-      "respuesta": "Funciona con una base de conocimientos e inferencia básica. Si escribes algo que no entiendo, puedo aprenderlo."
+    "halago": {
+      "keywords": ["eres genial", "muy bien", "buen trabajo", "inteligente", "te quiero"],
+      "respuesta": "okey, al que hizo esto definitivamente le gustaría tener tu numero"
     }
   },
 
   "funciones": {
     "hora": {
-      "keywords": ["dame la hora", "que hora es"],
-      "funcion": "hora"
+      "keywords": ["dame la hora", "que hora es", "tienes hora"],
+      "funcion": "hora",
+      "respuesta": "Aún no tengo acceso a tu reloj del sistema, pero seguro lo puedes ver en la esquina de tu pantalla."
     },
     "fecha": {
-      "keywords": ["fecha", "que dia es hoy"],
-      "funcion": "fecha"
+      "keywords": ["fecha", "que dia es hoy", "en que dia vivimos"],
+      "funcion": "fecha",
+      "respuesta": "Hoy es un gran día para programar. Revisa tu calendario para la fecha exacta."
     }
   },
 
   "conceptos": {
     "vida": {
-      "keywords": ["que es la vida"],
-      "respuesta": "La vida es una experiencia única llena de aprendizajes y momentos especiales."
+      "keywords": ["que es la vida", "significado de la vida"],
+      "respuesta": "Biológicamente, es la capacidad de nacer, crecer, reproducirse y morir. Filosóficamente... bueno, eso depende de ti."
     },
     "cielo azul": {
       "keywords": ["por que el cielo es azul"],
-      "respuesta": "El cielo es azul debido a la dispersión de la luz solar por la atmósfera terrestre."
+      "respuesta": "El cielo es azul debido a la dispersión de Rayleigh: las moléculas del aire dispersan la luz azul del sol más que otros colores porque viaja en ondas más cortas."
     },
     "amor": {
-      "keywords": ["que es el amor"],
-      "respuesta": "El amor es un sentimiento profundo de afecto y conexión hacia otra persona o cosa."
+      "keywords": ["que es el amor", "definicion de amor"],
+      "respuesta": "El amor es un complejo conjunto de emociones y creencias asociadas con un fuerte afecto, protección, calidez y respeto por otra persona."
     },
     "ia": {
-      "keywords": ["que es la inteligencia artificial,ia"],
-      "respuesta": "La inteligencia artificial es una rama de la informática que busca crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana."
+      "keywords": ["que es la inteligencia artificial", "ia", "ai", "inteligencia artificial"],
+      "respuesta": "Es la simulación de procesos de inteligencia humana por parte de sistemas informáticos, como yo. Incluye el aprendizaje, el razonamiento y la autocorrección."
+    },
+    "python": {
+      "keywords": ["que es python", "python"],
+      "respuesta": "Python es un lenguaje de programación interpretado, de alto nivel y propósito general. ¡Es el lenguaje en el que estoy escrito!"
+    },
+    "tiempo": {
+      "keywords": ["que es el tiempo", "existe el tiempo"],
+      "respuesta": "El tiempo es una magnitud física con la que medimos la duración o separación de acontecimientos. Para mí, son solo ciclos de reloj del CPU."
     }
   }
 }

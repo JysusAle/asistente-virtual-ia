@@ -6,21 +6,61 @@
           "canciones": [
             "smells like teen spirit",
             "come as you are",
-            "lithium"
+            "lithium",
+            "heart-shaped box",
+            "in bloom"
           ]
         },
         "queen": {
           "canciones": [
             "bohemian rhapsody",
             "don't stop me now",
-            "we will rock you"
+            "we will rock you",
+            "another one bites the dust",
+            "radio ga ga",
+            "under pressure"
           ]
         },
         "metallica": {
           "canciones": [
             "enter sandman",
             "nothing else matters",
-            "master of puppets"
+            "master of puppets",
+            "one",
+            "the unforgiven"
+          ]
+        },
+        "the beatles": {
+          "canciones": [
+            "hey jude",
+            "let it be",
+            "come together",
+            "yesterday",
+            "help"
+          ]
+        },
+        "ac/dc": {
+          "canciones": [
+            "back in black",
+            "highway to hell",
+            "thunderstruck",
+            "t.n.t."
+          ]
+        },
+        "pink floyd": {
+          "canciones": [
+            "another brick in the wall",
+            "comfortably numb",
+            "money",
+            "wish you were here"
+          ]
+        },
+        "guns n' roses": {
+          "canciones": [
+            "sweet child o' mine",
+            "welcome to the jungle",
+            "november rain",
+            "paradise city"
           ]
         }
       }
@@ -32,14 +72,52 @@
           "canciones": [
             "levitating",
             "new rules",
-            "dont start now"
+            "dont start now",
+            "physical",
+            "break my heart"
           ]
         },
         "taylor swift": {
           "canciones": [
             "lover",
             "shake it off",
-            "cardigan"
+            "cardigan",
+            "blank space",
+            "anti-hero",
+            "cruel summer"
+          ]
+        },
+        "michael jackson": {
+          "canciones": [
+            "billie jean",
+            "thriller",
+            "beat it",
+            "smooth criminal",
+            "man in the mirror"
+          ]
+        },
+        "ariana grande": {
+          "canciones": [
+            "thank u, next",
+            "7 rings",
+            "positions",
+            "no tears left to cry"
+          ]
+        },
+        "bruno mars": {
+          "canciones": [
+            "uptown funk",
+            "locked out of heaven",
+            "just the way you are",
+            "24k magic"
+          ]
+        },
+        "harry styles": {
+          "canciones": [
+            "as it was",
+            "watermelon sugar",
+            "sign of the times",
+            "late night talking"
           ]
         }
       }
@@ -51,34 +129,85 @@
           "canciones": [
             "creep",
             "karma police",
-            "no surprises"
+            "no surprises",
+            "paranoid android",
+            "fake plastic trees"
           ]
         },
         "arctic monkeys": {
           "canciones": [
             "do i wanna know",
             "505",
-            "r u mine"
+            "r u mine",
+            "fluorescent adolescent",
+            "arabella"
+          ]
+        },
+        "the strokes": {
+          "canciones": [
+            "reptilia",
+            "last nite",
+            "someday",
+            "you only live once"
+          ]
+        },
+        "gorillaz": {
+          "canciones": [
+            "clint eastwood",
+            "feel good inc",
+            "on melancholy hill",
+            "dare"
+          ]
+        },
+        "tame impala": {
+          "canciones": [
+            "the less i know the better",
+            "elephant",
+            "let it happen",
+            "borderline"
+          ]
+        },
+        "muse": {
+          "canciones": [
+            "uprising",
+            "supermassive black hole",
+            "starlight",
+            "hysteria"
           ]
         }
       }
     }
   },
 
-  "palabras_clave":[
+  "palabras_clave": [
     "musica",
     "cancion",
     "artista",
     "genero",
     "recomiendame una cancion",
     "musica sugieres",
-    "escuchar musica"
+    "escuchar musica",
+    "tocar",
+    "banda",
+    "cantante",
+    "triste",       
+    "feliz",        
+    "lento",        
+    "rapido",       
+    "relajarme",   
+    "animado",     
+    "deprimente",  
+    "fiesta",      
+    "bailar",      
+    "energia",
+    "alegre"
   ],
   
   "request":[
-    "Bien te podria gustar lo siguiente: ",
-    "Excelente, re recomiendo lo siguiente: ",
-    "Muy bien, lo que te puedo recomendar es: ",
-    "Excelentes gustos, considera escuchar"
+    "Claro, aquí tienes algunas excelentes opciones: ",
+    "Basado en lo que pides, te recomiendo escuchar: ",
+    "Estas canciones son god en ese género: ",
+    "Excelentes gustos! Agrega estas a tu lista: ",
+    "Prueba con estos artistas y canciones: "
   ]
 }

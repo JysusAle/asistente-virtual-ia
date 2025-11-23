@@ -5,67 +5,120 @@
         "fiebre",
         "tos",
         "dolor_cabeza",
-        "cansancio"
+        "cansancio",
+        "dolor_muscular"
       ]
     },
-
     "resfriado": {
       "sintomas": [
         "tos",
         "mocos",
         "dolor_garganta",
-        "estornudos"
+        "estornudos",
+        "ojos_llorosos"
       ]
     },
-
     "neumonia": {
       "sintomas": [
         "fiebre",
-        "tos",
+        "tos_fuerte",
         "dificultad_respirar",
-        "dolor_pecho"
+        "dolor_pecho",
+        "escalofrios"
       ]
     },
-
     "amigdalitis": {
       "sintomas": [
         "dolor_garganta",
         "fiebre",
-        "inflamacion_garganta"
+        "inflamacion_garganta",
+        "dificultad_tragar"
+      ]
+    },
+    "gastroenteritis": {
+      "sintomas": [
+        "dolor_estomago",
+        "nauseas",
+        "vomito",
+        "diarrea",
+        "fiebre"
+      ]
+    },
+    "migrana": {
+      "sintomas": [
+        "dolor_cabeza_fuerte",
+        "sensibilidad_luz",
+        "nauseas",
+        "mareo"
+      ]
+    },
+    "alergia": {
+      "sintomas": [
+        "estornudos",
+        "picazon_ojos",
+        "goteo_nasal",
+        "erupcion_piel"
+      ]
+    },
+    "covid": {
+      "sintomas": [
+        "fiebre",
+        "tos_seca",
+        "cansancio",
+        "perdida_olfato",
+        "perdida_gusto"
       ]
     }
   },
 
   "sintomas": {
-    "fiebre": ["fiebre, calentura", "temperatura alta", "me siento caliente"],
-    "tos":["tos, tosiendo", "toser", "se me va la voz"],
-    "dolor_cabeza":["dolor de cabeza,me duele la cabeza", "jaqueca", "presión en la cabeza"],
-    "cansancio" : ["cansancio, fatiga", "me siento debil", "agotado"],
-    "mocos": ["mocos, congestion nasal", "nariz tapada", "secreción nasal"],
-    "dolor_garganta": ["dolor garganta, me arde la garganta", "molestia al tragar", "raspera"],
-    "estornudos": ["estornudos, estoy estornudando", "no paro de estornudar"],
-    "dificultad_respirar": ["dificultad_respirar, falta el aire", "no puedo respirar bien", "ahogo"],
-    "dolor_pecho":  ["dolor de pecho, en el pecho", "dolor al respirar", "molestia toracica"],
-    "inflamacion_garganta": ["inflamacion_garganta, inflamada", "roja la garganta"]
+    "fiebre": ["fiebre", "calentura", "temperatura alta", "me siento ardiendo", "cuerpo cortado"],
+    "tos": ["tos", "tosiendo", "toser", "carraspera"],
+    "tos_fuerte": ["tos muy fuerte", "tos con flemas", "tos incontrolable"],
+    "tos_seca": ["tos seca", "tos sin flemas"],
+    "dolor_cabeza": ["dolor de cabeza", "me duele la cabeza", "jaqueca", "pesadez en la cabeza"],
+    "dolor_cabeza_fuerte": ["me estalla la cabeza", "migraña", "dolor de cabeza insoportable", "punzadas en la cabeza"],
+    "cansancio": ["cansancio", "fatiga", "me siento debil", "agotado", "sin energia"],
+    "dolor_muscular": ["dolor de cuerpo", "me duele todo", "dolor muscular"],
+    "mocos": ["mocos", "congestion nasal", "nariz tapada", "secreción nasal", "moco"],
+    "goteo_nasal": ["me escurre la nariz", "goteo nasal", "rinitis"],
+    "dolor_garganta": ["dolor garganta", "me arde la garganta", "molestia al tragar", "raspera"],
+    "dificultad_tragar": ["no puedo pasar comida", "me duele al comer", "disfagia"],
+    "inflamacion_garganta": ["garganta inflamada", "roja la garganta", "amigdalas hinchadas"],
+    "estornudos": ["estornudos", "estoy estornudando", "no paro de estornudar"],
+    "dificultad_respirar": ["falta el aire", "no puedo respirar bien", "ahogo", "siento que me asfixio"],
+    "dolor_pecho": ["dolor de pecho", "presion en el pecho", "dolor al respirar", "piquetes en el pecho"],
+    "escalofrios": ["tengo frio", "escalofrios", "tiritando"],
+    "dolor_estomago": ["dolor de estomago", "me duele la panza", "dolor abdominal", "retortijones", "colico"],
+    "nauseas": ["nauseas", "ganas de vomitar", "asco", "revoltura"],
+    "vomito": ["vomito", "estoy vomitando", "devuelvo la comida", "emesis"],
+    "diarrea": ["diarrea", "estomago suelto", "cagalera", "ir mucho al baño"],
+    "sensibilidad_luz": ["me molesta la luz", "fotofobia", "no aguanto el sol"],
+    "mareo": ["mareado", "me da vueltas todo", "vertigo"],
+    "picazon_ojos": ["me pican los ojos", "comezon en los ojos", "ojos rojos"],
+    "ojos_llorosos": ["ojos llorosos", "me lloran los ojos"],
+    "erupcion_piel": ["ronchas", "salpullido", "granitos", "comezon en la piel"],
+    "perdida_olfato": ["no huelo nada", "perdi el olfato", "anosmia"],
+    "perdida_gusto": ["la comida no me sabe", "perdi el gusto", "no tengo sabor"]
   },
 
-
-  "palabras_clave":[
+  "palabras_clave": [
     "sintomas",
     "diagnostico",
     "enfermedad",
     "me siento mal",
     "me duele",
-    "tengo dolor de garganta",
-    "siento dolor de cabeza",
-    "dolor",
-    "enfermedad"
+    "tengo dolor",
+    "siento",
+    "padezco",
+    "creo que tengo"
   ],
 
-  "request":[
-    "Que mal que sientas eso, puede que tengas: ",
-    "Realmente que mal, con base a lo que dices puede que sufras: ",
-    "En base a tus sintomas, esto puede ser: ",
-    "Estos sintomas generalmente se deben a. "
+  "request": [
+    "Que mal que sientas eso. Basado en tus síntomas, podría ser: ",
+    "Lamento escuchar que te sientes mal, podrías tener: ",
+    "Analizando tus síntomas, hay probabilidad de que sea: ",
+    "Estos síntomas suelen coincidir con el siguiente cuadro: ",
+    "Por favor cuídate. Según lo que describes, parece ser: "
   ]
 }

@@ -1,67 +1,256 @@
 {
-    "lineas":{
-
-        "linea1":{
-
-            "estaciones":{
-                "observatorio":[null,1262],
-                "tacubaya":[1262,1158],
-                "juanacatlan":[1158,973],
-                "chapultepec":[973,501],
-                "sevilla":[501,645],
-                "insurgentes":[645,793],
-                "cuauhtemoc":[793,409],
-                "balderas":[409,458],
-                "salto del agua":[458,445],
-                "isabel la catolica":[445,382],
-                "pino suarez":[382,745],
-                "merced":[745,698],
-                "candelaria":[698,866],
-                "san lazaro":[866,478],
-                "moctezuma":[478,703],
-                "balbuena":[703,595],
-                "boulevard puerto aereo":[595,611],
-                "gomez farias":[611,762],
-                "zaragoza":[762,1320],
-                "pantitlan":[1320,null]
-            }
-        },
-
-        "linea2": {
-            "estaciones": {
-                "cuatro caminos": [null,1639],
-                "panteones": [1639,1416],
-                "tacuba": [1416,637],
-                "cuitlahuac": [637,620],
-                "popotla": [620,462],
-                "colegio militar": [462,516],
-                "normal": [516,657],
-                "san cosme": [657,537],
-                "revolucion": [537,587],
-                "hidalgo": [587,447],
-                "bellas artes": [447,387],
-                "allende": [387,602],
-                "zocalo": [602,745],
-                "pino suarez": [745,817],
-                "san antonio abad": [817,642],
-                "chabacano": [642,774],
-                "viaducto": [774,490],
-                "xola": [490,698],
-                "villa de cortes": [698,750],
-                "nativitas": [750,924],
-                "portales": [924,748],
-                "ermita": [748,838],
-                "general anaya": [838,1330],
-                "tasquena": [1330,null]
-    }
-}
+  "costo_transbordo": 350,
+  "lineas": {
+    "linea1": {
+      "estaciones": {
+        "observatorio": [null, 1262],
+        "tacubaya": [1262, 1158],
+        "juanacatlan": [1158, 973],
+        "chapultepec": [973, 501],
+        "sevilla": [501, 645],
+        "insurgentes": [645, 793],
+        "cuauhtemoc": [793, 409],
+        "balderas": [409, 458],
+        "salto del agua": [458, 445],
+        "isabel la catolica": [445, 382],
+        "pino suarez": [382, 745],
+        "merced": [745, 698],
+        "candelaria": [698, 866],
+        "san lazaro": [866, 478],
+        "moctezuma": [478, 703],
+        "balbuena": [703, 595],
+        "boulevard puerto aereo": [595, 611],
+        "gomez farias": [611, 762],
+        "zaragoza": [762, 1320],
+        "pantitlan": [1320, null]
+      }
     },
-
-    "palabras_clave":[
-        "metro",
-        "linea",
-        "llegar",
-        "ir"
-    ]
-
+    "linea2": {
+      "estaciones": {
+        "cuatro caminos": [null, 1639],
+        "panteones": [1639, 1416],
+        "tacuba": [1416, 637],
+        "cuitlahuac": [637, 620],
+        "popotla": [620, 462],
+        "colegio militar": [462, 516],
+        "normal": [516, 657],
+        "san cosme": [657, 537],
+        "revolucion": [537, 587],
+        "hidalgo": [587, 447],
+        "bellas artes": [447, 387],
+        "allende": [387, 602],
+        "zocalo": [602, 745],
+        "pino suarez": [745, 817],
+        "san antonio abad": [817, 642],
+        "chabacano": [642, 774],
+        "viaducto": [774, 490],
+        "xola": [490, 698],
+        "villa de cortes": [698, 750],
+        "nativitas": [750, 924],
+        "portales": [924, 748],
+        "ermita": [748, 838],
+        "general anaya": [838, 1330],
+        "tasquena": [1330, null]
+      }
+    },
+    "linea3": {
+      "estaciones": {
+        "indios verdes": [null, 1166],
+        "deportivo 18 de marzo": [1166, 960],
+        "potrero": [960, 1100],
+        "la raza": [1100, 1100],
+        "tlatelolco": [1100, 1000],
+        "guerrero": [1000, 800],
+        "hidalgo": [800, 600],
+        "juarez": [600, 500],
+        "balderas": [500, 700],
+        "ninos heroes": [700, 700],
+        "hospital general": [700, 800],
+        "centro medico": [800, 800],
+        "etiopia": [800, 900],
+        "eugenia": [900, 900],
+        "division del norte": [900, 900],
+        "zapata": [900, 1000],
+        "coyoacan": [1000, 1000],
+        "viveros": [1000, 900],
+        "miguel angel de quevedo": [900, 1200],
+        "copilco": [1200, 1300],
+        "universidad": [1300, null]
+      }
+    },
+    "linea4": {
+      "estaciones": {
+        "martin carrera": [null, 1100],
+        "talisman": [1100, 1000],
+        "bondojito": [1000, 1000],
+        "consulado": [1000, 900],
+        "canal del norte": [900, 900],
+        "morelos": [900, 1000],
+        "candelaria": [1000, 800],
+        "fray servando": [800, 900],
+        "jamaica": [900, 1000],
+        "santa anita": [1000, null]
+      }
+    },
+    "linea5": {
+      "estaciones": {
+        "politecnico": [null, 1100],
+        "instituto del petroleo": [1100, 1000],
+        "autobuses del norte": [1000, 1100],
+        "la raza": [1100, 1200],
+        "misterios": [1200, 1000],
+        "valle gomez": [1000, 1000],
+        "consulado": [1000, 1100],
+        "eduardo molina": [1100, 900],
+        "aragon": [900, 1000],
+        "oceania": [1000, 1200],
+        "terminal aerea": [1200, 1300],
+        "hangares": [1300, 1500],
+        "pantitlan": [1500, null]
+      }
+    },
+    "linea6": {
+      "estaciones": {
+        "el rosario": [null, 1300],
+        "tezozomoc": [1300, 1100],
+        "azcapotzalco": [1100, 1000],
+        "ferreria": [1000, 1000],
+        "norte 45": [1000, 900],
+        "vallejo": [900, 1000],
+        "instituto del petroleo": [1000, 1100],
+        "lindavista": [1100, 1000],
+        "deportivo 18 de marzo": [1000, 800],
+        "la villa basilica": [800, 1000],
+        "martin carrera": [1000, null]
+      }
+    },
+    "linea7": {
+      "estaciones": {
+        "el rosario": [null, 1400],
+        "aquiles serdan": [1400, 1200],
+        "camarones": [1200, 1100],
+        "refineria": [1100, 1100],
+        "tacuba": [1100, 1000],
+        "san joaquin": [1000, 1200],
+        "polanco": [1200, 900],
+        "auditorio": [900, 1300],
+        "constituyentes": [1300, 1000],
+        "tacubaya": [1000, 1100],
+        "san pedro de los pinos": [1100, 900],
+        "san antonio": [900, 800],
+        "mixcoac": [800, 1200],
+        "barranca del muerto": [1200, null]
+      }
+    },
+    "linea8": {
+      "estaciones": {
+        "garibaldi": [null, 700],
+        "bellas artes": [700, 600],
+        "san juan de letran": [600, 800],
+        "salto del agua": [800, 500],
+        "doctores": [500, 800],
+        "obrera": [800, 900],
+        "chabacano": [900, 900],
+        "la viga": [900, 700],
+        "santa anita": [700, 1000],
+        "coyuya": [1000, 1100],
+        "iztacalco": [1100, 1000],
+        "apatlaco": [1000, 1000],
+        "aculco": [1000, 1100],
+        "escuadron 201": [1100, 1000],
+        "atlalilco": [1000, 1200],
+        "iztapalapa": [1200, 1000],
+        "cerro de la estrella": [1000, 1100],
+        "uam i": [1100, 1300],
+        "constitucion de 1917": [1300, null]
+      }
+    },
+    "linea9": {
+      "estaciones": {
+        "tacubaya": [null, 1300],
+        "patriotismo": [1300, 1000],
+        "chilpancingo": [1000, 1100],
+        "centro medico": [1100, 900],
+        "lazaro cardenas": [900, 900],
+        "chabacano": [900, 800],
+        "jamaica": [800, 1100],
+        "mixiuhca": [1100, 1000],
+        "velodromo": [1000, 1000],
+        "ciudad deportiva": [1000, 1100],
+        "puebla": [1100, 1200],
+        "pantitlan": [1200, null]
+      }
+    },
+    "lineaA": {
+      "estaciones": {
+        "pantitlan": [null, 1500],
+        "agricola oriental": [1500, 1300],
+        "canal de san juan": [1300, 1400],
+        "tepalcates": [1400, 1500],
+        "guelatao": [1500, 1400],
+        "penon viejo": [1400, 1600],
+        "acatitla": [1600, 1300],
+        "santa marta": [1300, 1200],
+        "los reyes": [1200, 1500],
+        "la paz": [1500, null]
+      }
+    },
+    "lineaB": {
+      "estaciones": {
+        "ciudad azteca": [null, 1200],
+        "plaza aragon": [1200, 1100],
+        "olimpica": [1100, 1000],
+        "ecatepec": [1000, 1100],
+        "muzquiz": [1100, 1200],
+        "rio de los remedios": [1200, 1300],
+        "impulsora": [1300, 1100],
+        "nezahualcoyotl": [1100, 1300],
+        "villa de aragon": [1300, 1200],
+        "bosque de aragon": [1200, 1100],
+        "deportivo oceania": [1100, 1000],
+        "oceania": [1000, 1000],
+        "romero rubio": [1000, 900],
+        "ricardo flores magon": [900, 1000],
+        "san lazaro": [1000, 800],
+        "morelos": [800, 700],
+        "tepito": [700, 700],
+        "lagunilla": [700, 600],
+        "garibaldi": [600, 600],
+        "guerrero": [600, 700],
+        "buenavista": [700, null]
+      }
+    },
+    "linea12": {
+      "estaciones": {
+        "mixcoac": [null, 1300],
+        "insurgentes sur": [1300, 1000],
+        "hospital 20 de noviembre": [1000, 900],
+        "zapata": [900, 1000],
+        "parque de los venados": [1000, 1000],
+        "eje central": [1000, 1100],
+        "ermita": [1100, 1000],
+        "mexicaltzingo": [1000, 1200],
+        "atlalilco": [1200, 1100],
+        "culhuacan": [1100, 1100],
+        "san andres tomatlan": [1100, 1000],
+        "lomas estrella": [1000, 1100],
+        "calle 11": [1100, 1000],
+        "periferico oriente": [1000, 1300],
+        "tezonco": [1300, 1200],
+        "olivos": [1200, 1100],
+        "nopalera": [1100, 1200],
+        "zapotitlan": [1200, 1300],
+        "tlaltenco": [1300, 1500],
+        "tlahuac": [1500, null]
+      }
+    }
+  },
+  "palabras_clave": [
+    "metro",
+    "linea",
+    "llegar",
+    "ir",
+    "estacion",
+    "transbordo"
+  ]
 }

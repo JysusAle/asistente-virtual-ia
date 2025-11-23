@@ -236,9 +236,3 @@ def buscar_estacion(mapa, nombre):
             if est.nombre.lower() == nombre.lower():
                 return est
     return None
-
-# pruebaas para metro: 
-
-mapa = iniciar_mapa("kb/kb_metro.json")
-
-print(a_star_ruta("panteones", "general anaya", mapa))

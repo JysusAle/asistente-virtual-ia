@@ -1,0 +1,125 @@
+{
+  "canciones": [
+    { "nombre": "smells like teen spirit", "artista": "nirvana", "genero": "rock", "energia": 0.9, "valencia": 0.5 },
+    { "nombre": "come as you are", "artista": "nirvana", "genero": "rock", "energia": 0.6, "valencia": 0.4 },
+    { "nombre": "lithium", "artista": "nirvana", "genero": "rock", "energia": 0.7, "valencia": 0.6 },
+    { "nombre": "heart-shaped box", "artista": "nirvana", "genero": "rock", "energia": 0.6, "valencia": 0.3 },
+    { "nombre": "in bloom", "artista": "nirvana", "genero": "rock", "energia": 0.7, "valencia": 0.5 },
+    
+    { "nombre": "bohemian rhapsody", "artista": "queen", "genero": "rock", "energia": 0.4, "valencia": 0.3 },
+    { "nombre": "don't stop me now", "artista": "queen", "genero": "rock", "energia": 0.9, "valencia": 0.8 },
+    { "nombre": "we will rock you", "artista": "queen", "genero": "rock", "energia": 0.6, "valencia": 0.5 },
+    { "nombre": "another one bites the dust", "artista": "queen", "genero": "rock", "energia": 0.8, "valencia": 0.6 },
+    { "nombre": "radio ga ga", "artista": "queen", "genero": "rock", "energia": 0.7, "valencia": 0.6 },
+    { "nombre": "under pressure", "artista": "queen", "genero": "rock", "energia": 0.7, "valencia": 0.5 },
+
+    { "nombre": "enter sandman", "artista": "metallica", "genero": "rock", "energia": 0.9, "valencia": 0.4 },
+    { "nombre": "nothing else matters", "artista": "metallica", "genero": "rock", "energia": 0.3, "valencia": 0.2 },
+    { "nombre": "master of puppets", "artista": "metallica", "genero": "rock", "energia": 0.95, "valencia": 0.3 },
+    { "nombre": "one", "artista": "metallica", "genero": "rock", "energia": 0.8, "valencia": 0.1 },
+    { "nombre": "the unforgiven", "artista": "metallica", "genero": "rock", "energia": 0.5, "valencia": 0.2 },
+
+    { "nombre": "hey jude", "artista": "the beatles", "genero": "rock", "energia": 0.4, "valencia": 0.6 },
+    { "nombre": "let it be", "artista": "the beatles", "genero": "rock", "energia": 0.3, "valencia": 0.5 },
+    { "nombre": "come together", "artista": "the beatles", "genero": "rock", "energia": 0.5, "valencia": 0.4 },
+    { "nombre": "yesterday", "artista": "the beatles", "genero": "rock", "energia": 0.1, "valencia": 0.3 },
+    { "nombre": "help", "artista": "the beatles", "genero": "rock", "energia": 0.7, "valencia": 0.6 },
+
+    { "nombre": "back in black", "artista": "ac/dc", "genero": "rock", "energia": 0.9, "valencia": 0.6 },
+    { "nombre": "highway to hell", "artista": "ac/dc", "genero": "rock", "energia": 0.9, "valencia": 0.7 },
+    { "nombre": "thunderstruck", "artista": "ac/dc", "genero": "rock", "energia": 0.95, "valencia": 0.6 },
+    { "nombre": "t.n.t.", "artista": "ac/dc", "genero": "rock", "energia": 0.85, "valencia": 0.6 },
+
+    { "nombre": "another brick in the wall", "artista": "pink floyd", "genero": "rock", "energia": 0.5, "valencia": 0.3 },
+    { "nombre": "comfortably numb", "artista": "pink floyd", "genero": "rock", "energia": 0.4, "valencia": 0.2 },
+    { "nombre": "money", "artista": "pink floyd", "genero": "rock", "energia": 0.6, "valencia": 0.5 },
+    { "nombre": "wish you were here", "artista": "pink floyd", "genero": "rock", "energia": 0.3, "valencia": 0.2 },
+
+    { "nombre": "sweet child o' mine", "artista": "guns n' roses", "genero": "rock", "energia": 0.8, "valencia": 0.7 },
+    { "nombre": "welcome to the jungle", "artista": "guns n' roses", "genero": "rock", "energia": 0.9, "valencia": 0.6 },
+    { "nombre": "november rain", "artista": "guns n' roses", "genero": "rock", "energia": 0.5, "valencia": 0.3 },
+    { "nombre": "paradise city", "artista": "guns n' roses", "genero": "rock", "energia": 0.9, "valencia": 0.8 },
+
+    { "nombre": "levitating", "artista": "dua lipa", "genero": "pop", "energia": 0.8, "valencia": 0.9 },
+    { "nombre": "new rules", "artista": "dua lipa", "genero": "pop", "energia": 0.7, "valencia": 0.7 },
+    { "nombre": "dont start now", "artista": "dua lipa", "genero": "pop", "energia": 0.8, "valencia": 0.8 },
+    { "nombre": "physical", "artista": "dua lipa", "genero": "pop", "energia": 0.9, "valencia": 0.8 },
+    { "nombre": "break my heart", "artista": "dua lipa", "genero": "pop", "energia": 0.7, "valencia": 0.7 },
+
+    { "nombre": "lover", "artista": "taylor swift", "genero": "pop", "energia": 0.4, "valencia": 0.6 },
+    { "nombre": "shake it off", "artista": "taylor swift", "genero": "pop", "energia": 0.9, "valencia": 0.9 },
+    { "nombre": "cardigan", "artista": "taylor swift", "genero": "pop", "energia": 0.3, "valencia": 0.4 },
+    { "nombre": "blank space", "artista": "taylor swift", "genero": "pop", "energia": 0.6, "valencia": 0.6 },
+    { "nombre": "anti-hero", "artista": "taylor swift", "genero": "pop", "energia": 0.6, "valencia": 0.5 },
+    { "nombre": "cruel summer", "artista": "taylor swift", "genero": "pop", "energia": 0.7, "valencia": 0.7 },
+
+    { "nombre": "billie jean", "artista": "michael jackson", "genero": "pop", "energia": 0.7, "valencia": 0.8 },
+    { "nombre": "thriller", "artista": "michael jackson", "genero": "pop", "energia": 0.8, "valencia": 0.7 },
+    { "nombre": "beat it", "artista": "michael jackson", "genero": "pop", "energia": 0.9, "valencia": 0.6 },
+    { "nombre": "smooth criminal", "artista": "michael jackson", "genero": "pop", "energia": 0.8, "valencia": 0.7 },
+    { "nombre": "man in the mirror", "artista": "michael jackson", "genero": "pop", "energia": 0.5, "valencia": 0.6 },
+
+    { "nombre": "thank u, next", "artista": "ariana grande", "genero": "pop", "energia": 0.5, "valencia": 0.6 },
+    { "nombre": "7 rings", "artista": "ariana grande", "genero": "pop", "energia": 0.6, "valencia": 0.5 },
+    { "nombre": "positions", "artista": "ariana grande", "genero": "pop", "energia": 0.5, "valencia": 0.6 },
+    { "nombre": "no tears left to cry", "artista": "ariana grande", "genero": "pop", "energia": 0.7, "valencia": 0.6 },
+
+    { "nombre": "uptown funk", "artista": "bruno mars", "genero": "pop", "energia": 0.9, "valencia": 0.95 },
+    { "nombre": "locked out of heaven", "artista": "bruno mars", "genero": "pop", "energia": 0.8, "valencia": 0.8 },
+    { "nombre": "just the way you are", "artista": "bruno mars", "genero": "pop", "energia": 0.6, "valencia": 0.7 },
+    { "nombre": "24k magic", "artista": "bruno mars", "genero": "pop", "energia": 0.8, "valencia": 0.9 },
+
+    { "nombre": "as it was", "artista": "harry styles", "genero": "pop", "energia": 0.8, "valencia": 0.4 },
+    { "nombre": "watermelon sugar", "artista": "harry styles", "genero": "pop", "energia": 0.6, "valencia": 0.8 },
+    { "nombre": "sign of the times", "artista": "harry styles", "genero": "pop", "energia": 0.4, "valencia": 0.2 },
+    { "nombre": "late night talking", "artista": "harry styles", "genero": "pop", "energia": 0.7, "valencia": 0.8 },
+
+    { "nombre": "creep", "artista": "radiohead", "genero": "alternativo", "energia": 0.4, "valencia": 0.1 },
+    { "nombre": "karma police", "artista": "radiohead", "genero": "alternativo", "energia": 0.5, "valencia": 0.3 },
+    { "nombre": "no surprises", "artista": "radiohead", "genero": "alternativo", "energia": 0.3, "valencia": 0.2 },
+    { "nombre": "paranoid android", "artista": "radiohead", "genero": "alternativo", "energia": 0.6, "valencia": 0.4 },
+    { "nombre": "fake plastic trees", "artista": "radiohead", "genero": "alternativo", "energia": 0.3, "valencia": 0.1 },
+
+    { "nombre": "do i wanna know", "artista": "arctic monkeys", "genero": "alternativo", "energia": 0.6, "valencia": 0.4 },
+    { "nombre": "505", "artista": "arctic monkeys", "genero": "alternativo", "energia": 0.7, "valencia": 0.4 },
+    { "nombre": "r u mine", "artista": "arctic monkeys", "genero": "alternativo", "energia": 0.8, "valencia": 0.5 },
+    { "nombre": "fluorescent adolescent", "artista": "arctic monkeys", "genero": "alternativo", "energia": 0.8, "valencia": 0.7 },
+    { "nombre": "arabella", "artista": "arctic monkeys", "genero": "alternativo", "energia": 0.7, "valencia": 0.5 },
+
+    { "nombre": "reptilia", "artista": "the strokes", "genero": "alternativo", "energia": 0.8, "valencia": 0.5 },
+    { "nombre": "last nite", "artista": "the strokes", "genero": "alternativo", "energia": 0.7, "valencia": 0.6 },
+    { "nombre": "someday", "artista": "the strokes", "genero": "alternativo", "energia": 0.7, "valencia": 0.7 },
+    { "nombre": "you only live once", "artista": "the strokes", "genero": "alternativo", "energia": 0.7, "valencia": 0.6 },
+
+    { "nombre": "clint eastwood", "artista": "gorillaz", "genero": "alternativo", "energia": 0.6, "valencia": 0.4 },
+    { "nombre": "feel good inc", "artista": "gorillaz", "genero": "alternativo", "energia": 0.7, "valencia": 0.6 },
+    { "nombre": "on melancholy hill", "artista": "gorillaz", "genero": "alternativo", "energia": 0.5, "valencia": 0.7 },
+    { "nombre": "dare", "artista": "gorillaz", "genero": "alternativo", "energia": 0.8, "valencia": 0.8 },
+
+    { "nombre": "the less i know the better", "artista": "tame impala", "genero": "alternativo", "energia": 0.7, "valencia": 0.5 },
+    { "nombre": "elephant", "artista": "tame impala", "genero": "alternativo", "energia": 0.8, "valencia": 0.6 },
+    { "nombre": "let it happen", "artista": "tame impala", "genero": "alternativo", "energia": 0.7, "valencia": 0.6 },
+    { "nombre": "borderline", "artista": "tame impala", "genero": "alternativo", "energia": 0.6, "valencia": 0.5 },
+
+    { "nombre": "uprising", "artista": "muse", "genero": "alternativo", "energia": 0.8, "valencia": 0.5 },
+    { "nombre": "supermassive black hole", "artista": "muse", "genero": "alternativo", "energia": 0.9, "valencia": 0.6 },
+    { "nombre": "starlight", "artista": "muse", "genero": "alternativo", "energia": 0.8, "valencia": 0.7 },
+    { "nombre": "hysteria", "artista": "muse", "genero": "alternativo", "energia": 0.9, "valencia": 0.4 },
+
+    { "nombre": "gasolina", "artista": "daddy yankee", "genero": "reggaeton", "energia": 0.95, "valencia": 0.9 },
+    { "nombre": "dura", "artista": "daddy yankee", "genero": "reggaeton", "energia": 0.9, "valencia": 0.9 },
+    { "nombre": "limbo", "artista": "daddy yankee", "genero": "reggaeton", "energia": 0.95, "valencia": 0.95 },
+    
+    { "nombre": "titi me pregunto", "artista": "bad bunny", "genero": "reggaeton", "energia": 0.8, "valencia": 0.7 },
+    { "nombre": "ojitos lindos", "artista": "bad bunny", "genero": "reggaeton", "energia": 0.6, "valencia": 0.5 },
+    { "nombre": "me porto bonito", "artista": "bad bunny", "genero": "reggaeton", "energia": 0.85, "valencia": 0.8 },
+    
+    { "nombre": "one more time", "artista": "daft punk", "genero": "electronica", "energia": 0.8, "valencia": 0.9 },
+    { "nombre": "harder, better, faster, stronger", "artista": "daft punk", "genero": "electronica", "energia": 0.9, "valencia": 0.8 },
+    { "nombre": "get lucky", "artista": "daft punk", "genero": "electronica", "energia": 0.7, "valencia": 0.8 },
+    
+    { "nombre": "wake me up", "artista": "avicii", "genero": "electronica", "energia": 0.9, "valencia": 0.7 },
+    { "nombre": "levels", "artista": "avicii", "genero": "electronica", "energia": 0.95, "valencia": 0.9 },
+    { "nombre": "hey brother", "artista": "avicii", "genero": "electronica", "energia": 0.8, "valencia": 0.6 }
+  ]
+}
