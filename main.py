@@ -7,7 +7,7 @@ import os
 from analisis import identificar_tema
 from inferencia import *
 from tokenizacion import generar_respuesta
-from amor import resolver_ruta
+from metro import resolver_ruta_metro
 from vetores_musica import recomendar_canciones
 
 load_dotenv()
@@ -37,15 +37,13 @@ def main(page: Page):
         kb_general = "kb/kb_general.json"
 
         user_message = input_box.value
+        tema = identificar_tema(user_message)
         if not user_message:
             return
         
         chat_area.controls.append(Text(f"Tu: {user_message}", color=Colors.WHITE))
 
-        tema = identificar_tema(user_message)
 
-        # Estructura if-elif-else corregida
-        tema = identificar_tema(user_message)
 
         if tema == "musica":
             kb_musica_vec = "kb/kb_musica_vectorial.json"
@@ -56,18 +54,17 @@ def main(page: Page):
         elif tema == "medicina":
             response = generar_respuesta(tema,inferir_enfermedad(user_message,kb_medico),kb_medico)
         elif tema == "metro":
-            response = resolver_ruta(user_message,kb_metro)
+            response = resolver_ruta_metro(user_message)
         else: 
             response = generar_respuesta(tema,user_message,kb_general)
         
         chat_area.controls.append(Text(f"DinoBot: {response}", color=Colors.BLUE_200))
         
         input_box.value = ""
-        input_box.focus() # Truco extra: mantiene el cursor en la caja para seguir escribiendo
+        input_box.focus() 
         page.update()
 
-    # 4. FINALMENTE conectamos el enter y el botón con la función ya creada
-    input_box.on_submit = send_message  # <--- AQUÍ ES SEGURO HACERLO
+    input_box.on_submit = send_message  
 
     send_button = ElevatedButton(
         text="Enviar",
